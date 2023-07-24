@@ -1,1 +1,2 @@
 bitmaskt - 800 - https://codeforces.com/problemset/problem/1696/A
+bitmaskt - 800 - https://codeforces.com/problemset/problem/1688/B
