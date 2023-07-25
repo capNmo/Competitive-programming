@@ -16,3 +16,16 @@ cout.setf(ios::fixed);
 # Question Models:
 
 - **Preprocess:** Make a `set` then check if value is in that set or not. like this: `if(set.count(value))`
+
+# Error's:
+
+> some thing like this means over flow! use `long long` .. or `uint_64` or ...
+
+```
+Output
+4.06096e+013 20189
+Answer
+40609587931575 20189
+Checker Log
+wrong output format Expected integer, but "4.06096e+013" found
+```
