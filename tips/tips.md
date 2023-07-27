@@ -12,6 +12,13 @@ cout.setf(ios::fixed);
 
 - we can use `cin>>` for `bitset`
 - bitset to decimal `to_ulong()`
+- sort vector of pairs:   
+```
+std::sort(v.begin(), v.end(), [](auto &left, auto &right) {
+    return left.first < right.first;
+});
+```
+- to get `1111...1111` in bitmask just use `-1`
 
 # Question Models:
 
