@@ -19,7 +19,15 @@ std::sort(v.begin(), v.end(), [](auto &left, auto &right) {
 });
 ```
 - to get `1111...1111` in bitmask just use `-1`
+- to do something with max element of array use this: 
+```
+#define all(v) v.begin(), v.end()
 
+*max_element(all(a))
+```
+- aslo REMEMBER when you nedd some max element or some min element you can use sort then remove elements from sorted array.
+
+   
 # Question Models:
 
 - **Preprocess:** Make a `set` then check if value is in that set or not. like this: `if(set.count(value))`
