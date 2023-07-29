@@ -1,1 +1,0 @@
-https://codeforces.com/problemset?tags=combine-tags-by-or,binary%20search,ternary%20search,0-800

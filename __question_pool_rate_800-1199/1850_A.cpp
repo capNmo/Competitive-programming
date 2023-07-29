@@ -4,22 +4,25 @@
 #include <math.h>
 #include <algorithm>
 #include "bits/stdc++.h"
-
-//#define int long long
+ 
+#define int long long
 #define ll long long
 #define all(v) v.begin(), v.end()
-
+ 
 using namespace std;
-
+ 
 void solve(){
-    int bb, a, b, d;
-    cin >> bb >> a >> b >> d;
-
-    if(bb == 0) cout << 1 << "\n";
-    else cout << (bb + min(a, b)*2) + (min(bb+1, abs(a-b) + d)) << "\n";
+    int a, b, c;
+ 
+    cin >> a >> b >> c;
+ 
+    if(((a+b) >= 10) || ((b+c) >= 10) || ((c+a) >= 10))
+        cout << "YES" << "\n";
+    else
+        cout << "NO" << "\n";
 }
-
-
+ 
+ 
 int32_t  main()
 {
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -28,6 +31,6 @@ int32_t  main()
     while(T--){
         solve();
     }
-
+ 
     return 0;
 }
