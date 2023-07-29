@@ -27,7 +27,30 @@ std::sort(v.begin(), v.end(), [](auto &left, auto &right) {
 ```
 - aslo REMEMBER when you nedd some max element or some min element you can use sort then remove elements from sorted array.
 
-   
+# DataStructures: 
+### TREE: 
+there is a nice and simple implementation of tree:    
+lets assume input is like this: 
+> input:    
+> 1 2    
+> 3 4   
+> 5 3   
+> 3 2   
+```
+    vector<vector<int>> g;
+    g.assign(n, vector<int>());
+
+    for(int i=0; i<4; ++i){
+        int u, v;
+        cin >> u >> v;
+        u--;v--; // becase in codeforces it starts index with 1.
+        g[u].push_back(v);
+        g[v].push_back(u);
+    }
+```
+now it is bidirectional tree. we have a simple array that each index of array looks to nodes connected to it.
+
+- detect a node is **leaf** or not? its count is **one**  
 # Question Models:
 
 - **Preprocess:** Make a `set` then check if value is in that set or not. like this: `if(set.count(value))`
