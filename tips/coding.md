@@ -1,6 +1,6 @@
 # set precision in c++
 
-```
+```c++
 ios::sync_with_stdio(false);
 cin.tie(nullptr);
 cout.tie(nullptr);
@@ -9,18 +9,23 @@ cout.setf(ios::fixed);
 ```
 
 # Note:
-
+- assing 2d vector: 
+```c++
+std::vector<std::vector<int> > fog(
+    ROW_COUNT,
+    std::vector<int>(COLUMN_COUNT, 4));
+```
 - we can use `cin>>` for `bitset`
 - bitset to decimal `to_ulong()`
 - sort vector of pairs:   
-```
+```c++
 std::sort(v.begin(), v.end(), [](auto &left, auto &right) {
     return left.first < right.first;
 });
 ```
 - to get `1111...1111` in bitmask just use `-1`
 - to do something with max element of array use this: 
-```
+```c++
 #define all(v) v.begin(), v.end()
 
 *max_element(all(a))
@@ -35,7 +40,7 @@ std::sort(v.begin(), v.end(), [](auto &left, auto &right) {
 
 > some thing like this means over flow! use `long long` .. or `uint_64` or ...
 
-```
+```c++
 Output
 4.06096e+013 20189
 Answer
