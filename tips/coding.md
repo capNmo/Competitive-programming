@@ -14,6 +14,15 @@ cout.setf(ios::fixed);
 std::vector<std::vector<int> > fog(
     ROW_COUNT,
     std::vector<int>(COLUMN_COUNT, 4));
+
+//OR: 
+
+vector<vector<int>> g;
+
+//then: 
+
+g.assign(n, vector<int>());
+
 ```
 - we can use `cin>>` for `bitset`
 - bitset to decimal `to_ulong()`
