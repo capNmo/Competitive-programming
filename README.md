@@ -1,7 +1,7 @@
 # Current Rating: ~880 goal to > 1199
 
 # Pool Of Question: 
-### link to codeforcess [Click to find best questions for 800-1199 rating](https://codeforces.com/problemset?tags=math%2Cbrute+force%2Cschedules%2Csortings%2Cstring+suffix+structures%2Cstrings%2Cnumber+theory%2Ctwo+pointers%2Cimplementation%2Cgreedy%2Ccombine-tags-by-or%2C400-1201)
+### link to codeforcess [Click to find best questions for 800-1199 rating](https://codeforces.com/problemset?tags=combine-tags-by-or,brute%20force,greedy,implementation,math,number%20theory,schedules,sortings,string%20suffix%20structures,strings,two%20pointers,constructive%20algorithms,400-1201)
 
 # Rating Goals:   
     
