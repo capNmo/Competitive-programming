@@ -60,3 +60,17 @@ void prefixSum(int arr[3][3], int n) {
     }
 }
 ```
+
+
+# binary search with index: 
+```c++
+int binary_search_find_index(const std::vector<int>& v, int data) {
+    auto it = std::lower_bound(v.begin(), v.end(), data);
+    if (it == v.end() || *it != data) {
+        return -1;
+    } else {
+        std::size_t index = std::distance(v.begin(), it);
+        return index;
+    }
+}
+```
